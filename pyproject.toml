@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "django-mailersend"
-version = "0.0.1"
+version = "1.0.0"
 authors = [
   { name="Digital Valley", email="techteam@digitalvalley.nl" }
 ]
@@ -18,5 +18,6 @@ classifiers = [
   "Programming Language :: Python :: 3"
 ]
 dependencies = [
-  "django"
+  "django",
+  "mailersend"
 ]
