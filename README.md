@@ -1,7 +1,7 @@
 # Django MailerSend
 
 Django MailerSend makes it easier to send emails in Django apps using the
-MailerSend API.
+MailerSend API. Uses the official MailerSend Python SDK internally.
 
 ## Installation
 
@@ -111,3 +111,4 @@ email_message.send()
 
 - Django: https://www.djangoproject.com/
 - MailerSend: https://www.mailersend.com/
+- MailerSend Python SDK: https://github.com/mailersend/mailersend-python
