@@ -146,6 +146,8 @@ email_message.send()
 - Send an attachment by providing a `MIMEBase` instance to the `attach` method:
 
 ```python
+from email.mime.image import MIMEImage
+from email.mime.text import MIMEText
 from django.core.mail.message import EmailMessage
 
 email_message = EmailMessage(
